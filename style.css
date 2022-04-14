@@ -1,8 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#face{
+    background-color: #1f2937;
+    padding: 0 10%;
+}
 
 #nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 ul{
     display: flex;
@@ -11,21 +24,43 @@ ul{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #e5e7eb;
 }
 
 #hero{
     display: flex;
-    flex:1;
+    padding: 10% 0;
+    gap:20px;
 }
 #main-text{
     display: flex;
     flex-direction: column;
+    flex:1;
+    gap:10px;
 }
+#hero-main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+#hero-secondary{
+    color: #e5e7eb;
+}
+#main-btn{
+    background-color: #3882f6;
+    margin:0;
+    padding: 10px 20px;
+    border-radius: 1em;
+    color:#fff;
+    border: none;
+}
+
 #picture{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-grow: 1;
+    flex:1;
+    background-color: grey;
+    color:#eee;
 }
